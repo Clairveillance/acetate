@@ -1,0 +1,54 @@
+/*!
+* Custom Styles
+* by Axel Duret
+* Released under the MIT License.
+*/
+
+// Text selection (pseudo element)
+::selection {
+    color: $ac-white;
+    background: $ac-dark-primary;
+}
+
+// Vuetify application
+.v-application .my-0 {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+// Vuetify Theme prepend-icon
+.v-input__prepend-outer .v-icon {
+    margin-right: 0.5rem;
+}
+
+// Vuetify Theme append-icon
+.v-input__append-outer .v-icon {
+    margin-left: 0.5rem;
+}
+
+// Vuetify Theme stepper content
+.v-stepper__content {
+    padding: 0;
+}
+
+.no-uppercase {
+    text-transform: none;
+}
+
+.events_links {
+    text-decoration: none;
+}
+
+.events_links:hover {
+    text-decoration: underline;
+}
+
+.comments_links {
+    text-decoration: underline;
+}
+
+.comments_links:hover {
+    text-decoration: underline;
+}

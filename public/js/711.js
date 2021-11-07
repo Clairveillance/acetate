@@ -1,0 +1,1 @@
+(self.webpackChunk=self.webpackChunk||[]).push([[711],{9711:(e,s,t)=>{"use strict";t.r(s),t.d(s,{default:()=>l});const n={dasds};const l=(0,t(1900).Z)(n,(function(){var e=this,s=e.$createElement;return(e._self._c||s)("div",[e._v(e._s(e.$t("menu.post_events.title")))])}),[],!1,null,null,null).exports}}]);

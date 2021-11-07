@@ -1,0 +1,61 @@
+/*!
+* Custom Vuetify Light Theme
+* by Axel Duret
+* Released under the MIT License.
+*/
+
+// Material background
+$material-dark: (
+    "background": $ac-white
+);
+// Main background
+.theme--light.v-application,
+// Header background
+.theme--light.v-app-bar.v-toolbar.v-sheet,
+// Footer background
+.theme--light.v-footer,
+// Navigation-drawer background
+.theme--light.v-navigation-drawer {
+    background-color: $ac-white;
+}
+// Tabs Items
+.theme--light.v-tabs-items {
+    background-color: $ac-white;
+}
+// Icons
+.theme--light.v-icon {
+    color: $ac-light-primary;
+}
+// Cards
+.theme--light.v-sheet.v-card {
+    background-color: $ac-light-cards-bg;
+}
+// Lists
+.theme--light
+    .v-list-item
+    :not(.v-list-item--active)
+    :not(.v-list-item--disabled),
+.theme--light .v-list-item__title {
+    color: $ac-light-secondary;
+}
+// Expansion panels
+.theme--light.v-expansion-panels .v-expansion-panel {
+    color: $ac-light-primary;
+    background-color: $ac-light-cards-bg;
+}
+.theme--light.v-expansion-panels .v-expansion-panel::before {
+    box-shadow: none;
+}
+// Data tables
+.theme--light.v-data-table {
+    background-color: transparent;
+}
+// Picker body
+.theme--light.v-picker__body {
+    background: $ac-light-contrast-bg;
+}
+// Divider
+.theme--light.v-divider {
+    background-color: $ac-light-contrast-bg;
+    color: $ac-light-contrast-bg;
+}

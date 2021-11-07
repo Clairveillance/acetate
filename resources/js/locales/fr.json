@@ -1,0 +1,237 @@
+{
+    "lang": {
+        "en": "Anglais",
+        "fr": "Français",
+        "switcher": {
+            "title": "Traduction"
+        }
+    },
+    "theme": {
+        "switcher": {
+            "light-title": "Thème clair",
+            "dark-title": "Thème sombre"
+        }
+    },
+    "loading": "Chargement",
+    "menu": {
+        "home": {
+            "title": "Accueil"
+        },
+        "events": {
+            "title": "Événements"
+        },
+        "post_events": {
+            "title": "Ajouter un événement"
+        },
+        "people": {
+            "title": "Personnes"
+        },
+        "venues": {
+            "title": "Lieux"
+        },
+        "users": {
+            "title": "Utilisateurs"
+        },
+        "contact": { "title": "Contact" },
+        "tos": { "title": "Conditions d'utilisation" }
+    },
+    "account-menu": {
+        "title": "Compte personnel",
+        "login": {
+            "title": "Connexion"
+        },
+        "register": {
+            "title": "Inscription"
+        },
+        "logout": {
+            "title": "Déconnexion"
+        },
+        "dashboard": {
+            "title": "Tableau de bord"
+        }
+    },
+    "page": {
+        "home": {
+            "title": "Bienvenue sur Acetate.",
+            "description": "Acetate est un projet en cours de développement. Débuté le 26 avril avril 2021, ce projet a été réalisé dans le cadre d'un travail personnel de fin de formation de développeur web. Acetate a pour but de ressenser les activité disponibles, en Suisse, dans le domaine de l'événementiel (conférences, expositions, musique, théâtre). Le contenu du site est composé de données fictives. L'ensemble des pages et des fonctionnalités est publié à titre de démonstration. Le code source du projet est libre d'accés et entièrement disponible sur github. N'hésitez pas à me contacter pour plus d'informations. Bonne visite."
+        },
+        "events": {
+            "title": "Bienvenue !",
+            "description": "...",
+            "no_people": "aucun",
+            "no_people_title": "Aucune personne à afficher",
+            "no_venues": "aucun",
+            "no_venues_title": "Aucun lieu à afficher",
+            "no_taxonomies": "aucun",
+            "no_taxonomies_title": "Aucune étiquette à afficher",
+            "no_prices": "aucun",
+            "no_prices_title": "Aucun prix à afficher",
+            "more_info": "plus d'infos",
+            "details": "détails",
+            "From": "Du",
+            "to": "au",
+            "tabs": {
+                "all": "tous",
+                "conference": "conférence",
+                "exhibition": "exposition",
+                "music": "musique",
+                "theater": "théâtre"
+            }
+        },
+        "event": {
+            "description_none": "Aucune description à afficher pour cet événement.",
+            "title": {
+                "description": "Description",
+                "dates": "Horaires",
+                "current_dates": "Prochaines Dates",
+                "old_dates": "Anciennes Dates",
+                "start_date": "Date de Début",
+                "end_date": "Date de Fin",
+                "start_time": "Heure de Début",
+                "end_time": "Heure de Fin",
+                "attendance": "Intervenants",
+                "locations": "Localisation",
+                "venues": "Lieux",
+                "venue": "Lieu",
+                "addresses": "Adresses",
+                "address": "Adresse",
+                "prices": "Tarifs",
+                "emails": "Email",
+                "phones": "Téléphone",
+                "websites": "Site internet",
+                "google_map": "Visualiser sur Google map",
+                "email": "Envoyer un email"
+            },
+            "comment": {
+                "post": "ajouter un commentaire"
+            }
+        },
+        "people": {
+            "title": {
+                "name": "Nom",
+                "company": "Entreprise"
+            },
+            "description": "...",
+            "no_name": "aucun",
+            "no_name_title": "Aucun nom à afficher",
+            "no_company": "aucun",
+            "no_company_title": "Aucune entreprise à afficher",
+            "no_taxonomies": "aucun",
+            "no_taxonomies_title": "Aucune étiquette à afficher",
+            "more_info": "plus d'infos"
+        },
+        "venues": {
+            "title": {
+                "name": "Nom",
+                "address": "Addresse"
+            },
+            "description": "...",
+            "no_addresses": "inconnu",
+            "no_addresses_title": "Aucune adresse à afficher",
+            "no_taxonomies": "aucun",
+            "no_taxonomies_title": "Aucune étiquette à afficher",
+            "more_info": "plus d'infos"
+        },
+        "users": {
+            "title": "Bienvenue !",
+            "description": "..."
+        },
+        "dashboard": {
+            "title": "Mon compte",
+            "description": "..."
+        },
+        "error": {
+            "notFound": {
+                "title": "Page non trouvée",
+                "description": "Page non trouvée."
+            },
+            "unauthorized": {
+                "title": "Non authentifié",
+                "description": "..."
+            },
+            "construction": {
+                "title": "En construction",
+                "description": "Cette page est en cours de développement."
+            }
+        }
+    },
+    "taxonomy": {
+        "type": {
+            "conference": "conférence",
+            "exhibition": "exposition",
+            "music": "musique",
+            "theater": "théâtre"
+        }
+    },
+    "price": {
+        "free": "entrée libre"
+    },
+    "form": {
+        "label": {
+            "email": "Email",
+            "password": "Mot de passe"
+        }
+    },
+    "errors": {
+        "login": {
+            "message": "Email ou mot de passe non valide."
+        },
+        "logout": {
+            "wrong": "Identifiant de l'utilisateur non valide.",
+            "null": "Identifiant de l'utilisateur non valide."
+        },
+        "comment": {
+            "message": "Le texte doit comprendre 10 caractères au minimum."
+        },
+        "venues": {
+            "not_found": "Aucun lieu correspondant à cette recherche."
+        },
+        "people": {
+            "not_found": "Aucune personne correspondant à cette recherche."
+        }
+    },
+    "not_logged_in": "Connexion requise",
+    "admin": {
+        "edit": {
+            "title": "Edition"
+        },
+        "edit_avatar": {
+            "title": "Modifier l'avatar"
+        },
+        "delete": {
+            "title": "Suppression"
+        },
+        "event": {
+            "title": "Titre",
+            "description": "Description",
+            "stepper": {
+                "info": "Info",
+                "dates": "Dates",
+                "people": "Intervenants",
+                "venues": "Localisation",
+                "prices": "Tarifs",
+                "contact": "Contact"
+            }
+        }
+    },
+    "button": {
+        "back": {
+            "back": "retour",
+            "home": "Retour à la page d'accueil",
+            "events": "retour vers événements",
+            "people": "retour vers personnes",
+            "venues": "retour vers lieux"
+        },
+        "next": "continuer",
+        "cancel": "annuler",
+        "delete": "supprimer",
+        "submit": "envoyer",
+        "confirm": "confirmer",
+        "close": "fermer"
+    },
+    "search": {
+        "venues": "Rechercher un lieu",
+        "people": "Rechercher une personne"
+    },
+    "avatar": { "no_avatar": "Aucune image à afficher" }
+}

@@ -1,0 +1,224 @@
+{
+    "lang": {
+        "en": "English",
+        "fr": "French",
+        "switcher": {
+            "title": "Language"
+        }
+    },
+    "theme": {
+        "switcher": {
+            "light-title": "Light theme",
+            "dark-title": "Dark theme"
+        }
+    },
+    "loading": "Loading",
+    "menu": {
+        "home": {
+            "title": "Home"
+        },
+        "events": {
+            "title": "Events"
+        },
+        "post_events": {
+            "title": "Post an event"
+        },
+        "people": {
+            "title": "People"
+        },
+        "venues": {
+            "title": "Venues"
+        },
+        "users": {
+            "title": "Users"
+        },
+        "contact": { "title": "Contact" },
+        "tos": { "title": "Terms and conditions" }
+    },
+    "account-menu": {
+        "title": "Personal account",
+        "login": {
+            "title": "Login"
+        },
+        "register": {
+            "title": "Register"
+        },
+        "logout": {
+            "title": "Logout"
+        },
+        "dashboard": {
+            "title": "Dashboard"
+        }
+    },
+    "page": {
+        "home": {
+            "title": "Welcome on Acetate.",
+            "description": "Acetate is a project under development. Started on April 26, 2021, this project was carried out as part of a personal work at the end of a web developer formation. Acetate aims to take stock of the activities available in Switzerland in the field of events (conferences, exhibitions, music, theater). The content of the site is made up of fake data. All pages and features are published for demonstration purposes. The source code of the project is free to access and fully available on github. Feel free to contact me for more information. Enjoy your visit."
+        },
+        "events": {
+            "title": "Welcome !",
+            "description": "...",
+            "no_people": "none",
+            "no_people_title": "No person to display",
+            "no_venues": "none",
+            "no_venues_title": "No venue to display",
+            "no_taxonomies": "none",
+            "no_taxonomies_title": "No tag to display",
+            "no_prices": "none",
+            "no_prices_title": "No price to display",
+            "more_info": "more info",
+            "details": "details",
+            "From": "From",
+            "to": "to",
+            "tabs": {
+                "all": "all",
+                "conference": "conference",
+                "exhibition": "exhibition",
+                "music": "music",
+                "theater": "theater"
+            }
+        },
+        "event": {
+            "description_none": "No description found for this event.",
+            "title": {
+                "description": "Description",
+                "dates": "Schedule",
+                "current_dates": "Current Dates",
+                "old_dates": "Past Dates",
+                "start_date": "Start Date",
+                "end_date": "End Date",
+                "start_time": "Start Time",
+                "end_time": "End Time",
+                "attendance": "Attendance",
+                "locations": "Location",
+                "venues": "Venues",
+                "venue": "Venue",
+                "addresses": "Addresses",
+                "address": "Address",
+                "prices": "Prices",
+                "emails": "Email",
+                "phones": "Phone",
+                "websites": "Website",
+                "google_map": "View on Google map",
+                "email": "Send an email"
+            },
+            "comment": {
+                "post": "post a comment"
+            }
+        },
+        "people": {
+            "title": { "name": "Name", "company": "Company" },
+            "description": "...",
+            "no_name": "none",
+            "no_name_title": "No name to display",
+            "no_company": "none",
+            "no_company_title": "No company to display",
+            "no_taxonomies": "none",
+            "no_taxonomies_title": "No tag to display",
+            "more_info": "more info"
+        },
+        "venues": {
+            "title": { "name": "Name", "address": "Address" },
+            "description": "...",
+            "no_addresses": "unknown",
+            "no_addresses_title": "No address to display",
+            "no_taxonomies": "none",
+            "no_taxonomies_title": "No tag to display",
+            "more_info": "more info"
+        },
+        "users": {
+            "title": "Welcome !",
+            "description": "..."
+        },
+        "dashboard": {
+            "title": "Dashboard",
+            "description": "..."
+        },
+        "error": {
+            "notFound": {
+                "title": "Page not found",
+                "description": "Page not found."
+            },
+            "unauthorized": {
+                "title": "Unauthenticated",
+                "description": "..."
+            },
+            "construction": {
+                "title": "Under construction",
+                "description": "This page is still under construction."
+            }
+        }
+    },
+    "taxonomy": {
+        "type": {
+            "conference": "conference",
+            "exhibition": "exhibition",
+            "music": "music",
+            "theater": "theater"
+        }
+    },
+    "price": {
+        "free": "free entry"
+    },
+    "form": {
+        "label": {
+            "email": "Email",
+            "password": "Password"
+        }
+    },
+    "errors": {
+        "login": {
+            "message": "Wrong email or password."
+        },
+        "logout": {
+            "wrong": "Wrong user id.",
+            "null": "User id cannot be null."
+        },
+        "comment": {
+            "message": "Text must contain at least 10 characters."
+        },
+        "venues": { "not_found": "No corresponding venue found." },
+        "people": { "not_found": "No corresponding person found." }
+    },
+    "not_logged_in": "Connection required",
+    "admin": {
+        "edit": {
+            "title": "Edit"
+        },
+        "edit_avatar": {
+            "title": "Update avatar"
+        },
+        "delete": {
+            "title": "Delete"
+        },
+        "event": {
+            "title": "Title",
+            "description": "Description",
+            "stepper": {
+                "info": "Info",
+                "dates": "Dates",
+                "people": "Attendance",
+                "venues": "Location",
+                "prices": "Prices",
+                "contact": "Contact"
+            }
+        }
+    },
+    "button": {
+        "back": {
+            "back": "back",
+            "home": "Back to home",
+            "events": "back to events",
+            "people": "back to people",
+            "venues": "back to venues"
+        },
+        "next": "continue",
+        "cancel": "cancel",
+        "delete": "delete",
+        "submit": "submit",
+        "confirm": "confirm",
+        "close": "close"
+    },
+    "search": { "venues": "Search a venue", "people": "Search a person" },
+    "avatar": { "no_avatar": "No avatar to display" }
+}

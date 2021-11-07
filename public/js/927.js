@@ -1,0 +1,1 @@
+(self.webpackChunk=self.webpackChunk||[]).push([[927],{6927:(e,t,l)=>{"use strict";l.r(t),l.d(t,{default:()=>s});const n={props:{id:String}};const s=(0,l(1900).Z)(n,(function(){var e=this,t=e.$createElement;return(e._self._c||t)("div",[e._v(e._s(e.$t("admin.delete.title"))+" "+e._s(e.id))])}),[],!1,null,null,null).exports}}]);

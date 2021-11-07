@@ -1,0 +1,66 @@
+/*!
+* Custom Vuetify Dark Theme
+* by Axel Duret
+* Released under the MIT License.
+*/
+
+// Material background
+$material-dark: (
+    "background": $ac-black
+);
+// Main background
+.theme--dark.v-application,
+// Header background
+.theme--dark.v-app-bar.v-toolbar.v-sheet,
+// Footer background
+.theme--dark.v-footer,
+// Navigation-drawer background
+.theme--dark.v-navigation-drawer {
+    background-color: $ac-black;
+}
+// Tabs Items
+.theme--dark.v-tabs-items {
+    background-color: $ac-black;
+}
+// Icons
+.theme--dark.v-icon {
+    color: $ac-dark-secondary;
+}
+// Cards
+.theme--dark.v-sheet.v-card {
+    background-color: $ac-dark-cards-bg;
+}
+// Lists
+.theme--dark
+    .v-list-item
+    :not(.v-list-item--active)
+    :not(.v-list-item--disabled),
+.theme--dark .v-list-item__title {
+    color: $ac-dark-primary;
+}
+// Expansion panels
+.theme--dark.v-expansion-panels .v-expansion-panel {
+    color: $ac-dark-primary;
+    background-color: $ac-dark-cards-bg;
+}
+.theme--dark.v-expansion-panels .v-expansion-panel::before {
+    box-shadow: none;
+}
+// Data tables
+.theme--dark.v-data-table {
+    background-color: transparent;
+}
+// Picker body
+.theme--dark.v-picker__body {
+    background: $ac-dark-contrast-bg;
+}
+// Pagination buttons
+.theme--dark.v-pagination .v-pagination__navigation,
+.theme--dark.v-pagination .v-pagination__item {
+    background: $ac-dark-cards-bg;
+}
+// Divider
+.theme--dark.v-divider {
+    background-color: $ac-dark-contrast-bg;
+    color: $ac-dark-contrast-bg;
+}
